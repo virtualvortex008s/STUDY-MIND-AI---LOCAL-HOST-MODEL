@@ -1,0 +1,24 @@
+# ── Web UI ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Ollama Python SDK ──────────────────────────────────────────────────────────
+ollama>=0.2.1
+
+# ── PDF parsing ────────────────────────────────────────────────────────────────
+pdfplumber>=0.11.0
+pypdf>=4.2.0                  # fallback / metadata extraction
+
+# ── Text splitting ─────────────────────────────────────────────────────────────
+langchain-text-splitters>=0.2.0
+
+# ── Vector database ────────────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── Embeddings (pulled automatically by chromadb DefaultEmbeddingFunction) ──────
+sentence-transformers>=3.0.0
+
+# ── PDF export ─────────────────────────────────────────────────────────────────
+fpdf2>=2.7.9
+
+# ── HTTP (health checks) ───────────────────────────────────────────────────────
+requests>=2.31.0
